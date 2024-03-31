@@ -35,10 +35,11 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
-    jekyll-timeago (0.13.1)
-      mini_i18n (>= 0.8.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -50,7 +51,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_i18n (0.9.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.4)
@@ -75,8 +75,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll (~> 4.2)
-  jekyll-timeago (~> 0.13.1)
+  jekyll
+  jekyll-paginate
+  jekyll-sitemap
 
 BUNDLED WITH
    2.5.7
