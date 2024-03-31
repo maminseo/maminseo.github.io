@@ -1,2 +1,1 @@
 # maminseo.github.io
-#hi
