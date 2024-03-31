@@ -1,1 +1,0 @@
-# maminseo.github.io
