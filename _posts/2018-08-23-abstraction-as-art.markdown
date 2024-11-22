@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Abstraction as art
-date:   2018-08-23 16:03:50 +0300
+title:  test
+date:   2024-11-21 16:37:50 +0300
 image:  04.jpg
 tags:   Art
 ---
