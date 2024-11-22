@@ -106,18 +106,19 @@ $(function() {
   // Instagram Feed
   ======================= */
   // userId and accessToken from Matthew Elsom (https://codepen.io/matthewelsom/pen/zrrrLN) for example, for which he thanks a lot!
-  var userFeed = new Instafeed({
+  var instagramFeed = new Instafeed({
     get: 'user',
-    userId: '8714989895283926',
-    clientId: '619499290444537',
-    accessToken: 'IGQWRNV1lhQzFERE5sMnNhb2V3WUFOSklIdHJyY3BHdDhZASC0wdEJydGFJeDJoY0NoVlNrWk9OaU5oOFhWWUJUbU1sVEVLSTllbjZAabmVIQjRxZA196TTctMUNaLS1pVWx1WlpKV3VtME9BZAwZDZD',
+    limit: 6,
     resolution: 'standard_resolution',
-    template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a>',
-    sortBy: 'most-recent',
-    limit: 4,
-    links: false
+    userId: '8714989895283926',
+    accessToken: 'IGQWRNV1lhQzFERE5sMnNhb2V3WUFOSklIdHJyY3BHdDhZASC0wdEJydGFJeDJoY0NoVlNrWk9OaU5oOFhWWUJUbU1sVEVLSTllbjZAabmVIQjRxZA196TTctMUNaLS1pVWx1WlpKV3VtME9BZAwZDZD',
+    template:
+      '<li class="instagram-item"><a href="{{link}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}"></a></li>'
   });
-  userFeed.run();
+
+  if ($('#instafeed').length) {
+    instagramFeed.run();
+  }
 
 
   /* =======================
