@@ -111,7 +111,7 @@ $(function() {
     limit: 6,
     resolution: 'standard_resolution',
     userId: '8714989895283926',
-    accessToken: 'IGQWRPa3VTY3RQSHF1dGFzclpDRm5UZA214ODUteWJITUZAVVUxsM0U0Tm1tYktVMXJrV24wVFcyaXlkTkhfaklmUTBlWjVCTDhKNmstWmpFZA0tmMmVEcXp1cEtnVUU0d2FiMlFIUTgtenZAnUQZDZD',
+    accessToken: 'IGQWRNV1lhQzFERE5sMnNhb2V3WUFOSklIdHJyY3BHdDhZASC0wdEJydGFJeDJoY0NoVlNrWk9OaU5oOFhWWUJUbU1sVEVLSTllbjZAabmVIQjRxZA196TTctMUNaLS1pVWx1WlpKV3VtME9BZAwZDZD',
     template:
       '<li class="instagram-item"><a href="{{link}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}"></a></li>'
   });
